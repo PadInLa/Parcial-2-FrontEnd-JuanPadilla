@@ -1,0 +1,42 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #c3fffb;
+  font-size: 30px;
+  text-align: center;
+  -webkit-user-select: none;
+  user-select: none;
+}
+#board {
+  position: relative;
+  background-color: #687eff;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+.tile {
+  position: absolute;
+  background-color: #86dfff;
+  border: 1px solid;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+  height: 25%;
+  width: 25%;
+  cursor: pointer;
+  transition: background-color 0.1s ease-in-out;
+}
+.tile:hover {
+  background-color: rgb(78, 104, 250);
+  transition: background-color 0.1s ease-in-out;
+}
+.container {
+  position: absolute;
+  font-size: 50px;
+  text-align: center;
+  top: 50%;
+  width: 50%;
+  height: 50%;
+  left: 50%;
+  margin: -25% 0 0 -25%;
+  cursor: pointer;
+}
